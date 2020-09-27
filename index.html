@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="calculator"> 
+        <input class="box2" type="text" id="screen" disabled>
+        <br>
+        <button onclick="backSpaceBtn(this.innerText)">AC</button>
+        <button>C</button>
+        <button>%</button>
+        <button onclick="numberClick(this.innerText)">/</button>
+        
+        <br> 
+        <button onclick="numberClick(this.innerText)">7</button>
+        <button onclick="numberClick(this.innerText)">8</button>
+        <button onclick="numberClick(this.innerText)">9</button>
+        <button onclick="numberClick(this.innerText)">*</button>
+        
+        <br>
+        <button onclick="numberClick(this.innerText)">6</button>
+        <button onclick="numberClick(this.innerText)">5</button>
+        <button onclick="numberClick(this.innerText)">4</button>
+        <button onclick="numberClick(this.innerText)">-</button>
+        <br> 
+        <button onclick="numberClick(this.innerText)">1</button>
+        <button onclick="numberClick(this.innerText)">2</button>
+        <button onclick="numberClick(this.innerText)">3</button>
+        <button onclick="numberClick(this.innerText)">+</button>
+        <br>
+        
+        <button onclick="backSpaceBtn(this.innerText)">0</button>
+        <button onclick="numberClick(this.innerText)">.</button>
+        <button onclick="numberClick(this.innerText)">E</button>
+        <button onclick="totalSum()">=</button>
+       
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
